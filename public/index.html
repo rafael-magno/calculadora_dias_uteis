@@ -1,0 +1,22 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora de dias úteis</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/calculadora.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form id="form-calculadora">
+      <h1 class="h3 mb-3 font-weight-normal">Calculadora de dias úteis</h1>
+      <input type="tel" id="dataInicio" class="form-control data" placeholder="Data início" required autofocus>
+      <input type="tel" id="dataFim" class="form-control data" placeholder="Data fim" required>
+      <button id="botaoCalcular" class="btn btn-lg btn-primary btn-block" type="submit">Calcular</button>
+      <div class="alert alert-primary d-none" role="alert"></div>
+      <div class="alert alert-danger d-none" role="alert"></div>
+    </form>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/calculadora.js"></script>
+  </body>
+</html>

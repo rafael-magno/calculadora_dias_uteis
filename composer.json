@@ -1,0 +1,25 @@
+{
+    "name": "rafael/calculadora_dias_uteis",
+    "description": "Calcula os dias úteis entre duas datas",
+    "type": "project",
+    "require-dev": {
+        "php": "^7.4.1",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --testdox tests"
+    }
+}
