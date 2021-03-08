@@ -12,7 +12,7 @@ $(document).ready(function () {
       dataFim: $('#dataFim').val(),
     }
     
-    $.getJSON('/calculaDiasUteis.php', dados, function(retorno) {
+    $.getJSON('calculaDiasUteis.php', dados, function(retorno) {
       $('#botaoCalcular').html('Calcular');
       $('#botaoCalcular').prop('disabled', false);
 
